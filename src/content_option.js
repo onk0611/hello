@@ -1,24 +1,21 @@
-const logotext = "JOHN";
+const logotext = "THEO SOULIER";
 const meta = {
-    title: "John Doe",
+    title: "Théo SOULIER",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Théo SOULIER",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Développeur Full Stack [React/Symfony]",
+        second: "Développeur d'application web & mobile",
+        third: "DevOps [AWS]",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "",
+    your_img_url: "https://images.unsplash.com/photo-1610192627200-a31ddef73277?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
 };
 
-const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
-};
+
 const worktimeline = [{
         jobtitle: "Designer of week",
         where: "YAdfi",
@@ -36,39 +33,67 @@ const worktimeline = [{
     },
 ];
 
+const graduation = [{
+        formation: "Développeur Web & Web Mobile",
+        where: "Campus26 x Simplon",
+        date: "2021 / 2022",
+    },
+    {
+        formation: "Concepteur Développeur D'application",
+        where: "2iTech Acadamy",
+        date: "2022 / 2023",
+    },
+];
+
 const skills = [{
-        name: "Python",
+        name: "HTML / CSS / SCSS / BootStrap / TailWind",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
+        name: "JavaScript ES6 / React Js / Angular",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "PhP 8.x / Symfony 6.x / Laravel",
+        value: 70,
+    },
+    {
+        name: "SQL / NoSQL / SGBD",
+        value: 70,
+    },
+    {
+        name: "NodeJs / Express",
+        value: 40,
+    },
+    {
+        name: "Mobile (Hybride React Native)",
+        value: 60,
+    },
+    {
+        name: "Algorythme",
+        value: 30,
+    },
+    {
+        name: "MacOs / Linux / Windows",
+        value: 80,
+    },
+    {
+        name: "C Sharp / Java / java EE / Spring",
+        value: 50,
+    },
+    {
+        name: "AWS / Unix Server",
+        value: 40,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Développement d'application web & mobile",
+        description: "De la conception jusqu'au déploiement, j'accompagne les projets d'application web et mobile sur différente technologie.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Simplicité d'utilisation",
+        description: "Je propose également mes services pour la mise en place de site internet avec des solutions clef en main, vous permettant de gérer votre site internet comme un pro !",
     },
 ];
 
@@ -136,29 +161,25 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "theos.pro@proton.me",
+    YOUR_FONE: "(+33) 6 43 87 32 68",
+    description: "Vous avez un projet ? Contactez-moi et je serai à l’écoute de vos attentes tout en vous délivrant conseils et clés pour la mise en forme de votre projet, dans la perspective d’une réalisation qui vous correspond !",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_xxp1a3q",
+    YOUR_TEMPLATE_ID: "template_t7vzz7m",
+    YOUR_USER_ID: "jAbA_ez7UEhHs2dxe",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
+    github: "https://github.com/onk0611",
     linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
-    youtube: "https://youtube.com",
-    twitch: "https://twitch.com",
 };
 export {
     meta,
-    dataabout,
     dataportfolio,
     worktimeline,
+    graduation,
     skills,
     services,
     introdata,

@@ -78,3 +78,8 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+
+.imgPortfolio {
+    width: 250px;
+    height: 250px;
+}
