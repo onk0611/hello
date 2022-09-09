@@ -27,7 +27,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Expérience</h3>
+            <h3 className="color_sec py-4">Expérience 🧳</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -47,7 +47,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Expérience</h3>
+            <h3 className="color_sec py-4">Étude 🎒</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -67,7 +67,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Compétences</h3>
+            <h3 className="color_sec py-4">Compétences 🚀</h3>
           </Col>
           <Col lg="7">
             {skills.map((data, i) => {
@@ -91,7 +91,7 @@ export const About = () => {
         </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">Services</h3>
+            <h3 className="color_sec py-4">Services 💻</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {

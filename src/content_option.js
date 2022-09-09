@@ -1,7 +1,7 @@
 const logotext = "THEO SOULIER";
 const meta = {
     title: "Théo SOULIER",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "Développeur full stack junior avec une envie de reponsabilité. ",
 };
 
 const introdata = {
@@ -17,31 +17,36 @@ const introdata = {
 
 
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Stage de fin de formation",
+        where: "Eureka43",
+        date: "01/2022 - 03/2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Freelance",
+        where: "",
+        date: "05/2022 - now",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Alternant Concepteur Développeur D'application",
+        where: "[Coming Soon]",
+        date: "09-2022 - 06-2022",
+    },
+    {
+        jobtitle: "Vous souhaitez apparaître ici ?",
+        where: "",
+        date: "06 43 87 32 68",
     },
 ];
 
 const graduation = [{
-        formation: "Développeur Web & Web Mobile",
+        formation: "Développeur Web & Web Mobile (TP Niv. 5 / Bac+2)",
         where: "Campus26 x Simplon",
-        date: "2021 / 2022",
+        date: "07/2021 - 05/2022",
     },
     {
-        formation: "Concepteur Développeur D'application",
+        formation: "Concepteur Développeur D'application (TP Niv. 6 / Bac+3/4)",
         where: "2iTech Acadamy",
-        date: "2022 / 2023",
+        date: "09-2022 - 06-2022",
     },
 ];
 
